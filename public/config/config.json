@@ -1,0 +1,18 @@
+{
+    "CONTRACT_ADDRESS": "01 January 2022 Public Mint",
+    "SCAN_LINK": "https://polygonscan.com/token/January 1",
+    "NETWORK": {
+        "NAME": "Polygon",
+        "SYMBOL": "Matic",
+        "ID": 137
+    },
+    "NFT_NAME": "Public Mint 01 January 2022",
+    "SYMBOL": "PGC",
+    "MAX_SUPPLY": 3000,
+    "WEI_COST": 75000000000000000,
+    "DISPLAY_COST": 10,
+    "GAS_LIMIT": 285000,
+    "MARKETPLACE": "Opeansea",
+    "MARKETPLACE_LINK": "https://opensea.io/collection/January 1",
+    "SHOW_BACKGROUND": true
+}
