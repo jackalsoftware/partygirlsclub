@@ -9,7 +9,7 @@
     "NFT_NAME": "Party Girls Club",
     "SYMBOL": "PGC",
     "MAX_SUPPLY": 3000,
-    "WEI_COST": 10 * 10 ** 18,
+    "WEI_COST": 10000000000000000000,
     "DISPLAY_COST": 10,
     "GAS_LIMIT": 285000,
     "MARKETPLACE": "Opeansea",
