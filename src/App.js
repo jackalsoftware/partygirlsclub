@@ -12,7 +12,7 @@ export const StyledButton = styled.button`
   padding: 10px;
   border-radius: 50px;
   border: none;
-  background-color: var(--secondary);
+  background-color: #FFA7E4;
   padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
@@ -32,7 +32,7 @@ export const StyledRoundButton = styled.button`
   padding: 10px;
   border-radius: 100%;
   border: none;
-  background-color: var(--primary);
+  background-color: #FFA7E4;
   padding: 10px;
   font-weight: bold;
   font-size: 15px;
