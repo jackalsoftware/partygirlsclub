@@ -1,18 +1,18 @@
 {
-    "CONTRACT_ADDRESS": "01 January 2022 Public Mint",
-    "SCAN_LINK": "https://polygonscan.com/token/January 1",
+    "CONTRACT_ADDRESS": "0xe2e8700528f9866e0660d7c566b375268b7a4bd4",
+    "SCAN_LINK": "https://polygonscan.com/token/0xe2e8700528f9866e0660d7c566b375268b7a4bd4",
     "NETWORK": {
         "NAME": "Polygon",
         "SYMBOL": "Matic",
         "ID": 137
     },
-    "NFT_NAME": "Public Mint 01 January 2022",
+    "NFT_NAME": "Party Girls Club",
     "SYMBOL": "PGC",
     "MAX_SUPPLY": 3000,
     "WEI_COST": 75000000000000000,
     "DISPLAY_COST": 10,
     "GAS_LIMIT": 285000,
     "MARKETPLACE": "Opeansea",
-    "MARKETPLACE_LINK": "https://opensea.io/collection/January 1",
+    "MARKETPLACE_LINK": "https://opensea.io/collection/partygirlsclub",
     "SHOW_BACKGROUND": true
 }
