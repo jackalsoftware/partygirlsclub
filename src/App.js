@@ -279,7 +279,7 @@ function App() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--accent-text)",
+                        color: "#ffa7e4",
                       }}
                     >
                       Connect to the {CONFIG.NETWORK.NAME} network
