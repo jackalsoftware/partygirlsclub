@@ -261,14 +261,14 @@ function App() {
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: #ffa7e4 }}
+                  style={{ textAlign: "center", color: "var(#ffa7e4)" }}
                 >
                   {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: #ffa7e4 }}
+                  style={{ textAlign: "center", color: "var(#ffa7e4)" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
