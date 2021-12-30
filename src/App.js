@@ -226,7 +226,7 @@ function App() {
                 fontSize: 50,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
-                       -webkit-text-stroke: 1px black;
+                text-stroke: 2px rgb(255, 167, 228);
   
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
