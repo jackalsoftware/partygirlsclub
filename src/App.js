@@ -226,16 +226,16 @@ function App() {
                 fontSize: 50,
                 fontWeight: "bold",
                 color: "#ffa7e4",
-   
-            >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
-            </s.TextTitle>
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                color: "var(--primary-text)",
               }}
-            >
+              >
+                {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              </s.TextTitle>
+              <s.TextDescription
+                style={{
+                  textAlign: "center",
+                  color: "var(--primary-text)",
+                }}
+              >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
@@ -244,12 +244,12 @@ function App() {
              {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "#ffa7e4" }}
                 >
                   The sale has ended.
                 </s.TextTitle>
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "#ffa7e4" }}
                 >
                   You can still find {CONFIG.NFT_NAME} on
                 </s.TextDescription>
@@ -261,14 +261,14 @@ function App() {
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(#ffa7e4)" }}
+                  style={{ textAlign: "center", color: "#ffa7e4" }}
                 >
                   {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(#ffa7e4)" }}
+                  style={{ textAlign: "center", color: "#ffa7e4" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
