@@ -380,7 +380,7 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-          <s.TextDescription
+          <s.TextBottomDescription
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
@@ -389,16 +389,16 @@ function App() {
             Please make sure you are connected to the right network (
             {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
-          </s.TextDescription>
+          </s.TextBottomDescription>
           <s.SpacerSmall />
-          <s.TextDescription
+          <s.TextBottomDescription
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
             }}
           >
            
-          </s.TextDescription>
+          </s.TextBottomDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
