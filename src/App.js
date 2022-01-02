@@ -152,7 +152,7 @@ function App() {
       });
   };
 
-  const decrementAmount = () => {
+  const decrementMintAmount = () => {
     let newMintAmount = mintAmount - 1;
     if (newMintAmount < 1) {
       newMintAmount = 1;
