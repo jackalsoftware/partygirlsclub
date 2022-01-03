@@ -80,3 +80,25 @@ export const StyledClickable = styled.div`
     opacity: 0.6;
   }
 `;
+
+export const Containerx = styled.div `
+display: flex;
+  flex: ${({ flex }) => (flex ? flex : 0)};
+  flex-direction: ${({ fd }) => (fd ? fd : "row")};
+  justify-content: ${({ jc }) => (jc ? jc : "center")};
+  align-items: ${({ ai }) => (ai ? ai : "center")};
+
+.fa {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+`;
