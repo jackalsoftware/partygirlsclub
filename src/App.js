@@ -199,7 +199,7 @@ function App() {
     
       <s.Containerx  flex={1}
         ai={"center"}
-        style={{ padding: 24,backgroundColor: "#0000ffff" 
+        style={{ padding: 24,backgroundColor: "#90d7f6" 
       
       
       }}
