@@ -199,7 +199,7 @@ function App() {
     
       <s.Containerx  flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" 
+        style={{ padding: 24, background-image: url('/config/images/bg.png');" 
       
       
       }}
