@@ -205,7 +205,7 @@ function App() {
       }}
         >
           
-        <a href="https://opensea.io/collection/partygirlsclub" class="fa">
+        <a href="https://opensea.io/collection/partygirlsclub" target="_blank" class="fa">
         <svg
                     className="w-7 h-7"
                     viewBox="0 0 90 90"
@@ -218,7 +218,7 @@ function App() {
                     ></path>
                   </svg>
         </a>
-<a href="https://twitter.com/partygirlsnft" class="fa">
+<a href="https://twitter.com/partygirlsnft" target="_blank" class="fa">
 <svg
                     className="w-7 h-7"
                     stroke="currentColor"
@@ -232,7 +232,7 @@ function App() {
                     </path>
                   </svg>
 </a>
-<a href="https://discord.gg/D2WAxVtP" class="fa">
+<a href="https://discord.gg/D2WAxVtP" target="_blank" class="fa">
 <svg
                     className="w-7 h-7"
                     stroke="currentColor"
